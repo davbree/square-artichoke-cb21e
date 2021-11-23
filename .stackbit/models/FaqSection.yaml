@@ -70,6 +70,14 @@ fields:
           - value: 'border-complementary-alt'
             label: 'Complementary alt color'
             color: '$complementaryAlt'
+      title:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+      subtitle:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
       question:
         fontWeight: ['400', '700']
         fontStyle: ['normal', 'italic']
