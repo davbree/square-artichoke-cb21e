@@ -68,10 +68,10 @@ export default function HeroSection(props) {
 
 function heroMedia(media) {
     const mediaType = media.type;
-    if (!featureType) {
+    if (!mediaType) {
         throw new Error(`hero section feature does not have the 'type' property`);
     }
-    const Feature = getComponent(featureType);
+    const Feature = getComponent(mediaType);
     if (!Feature) {
         throw new Error(`no component matching the hero section feature type: ${featureType}`);
     }
