@@ -115,7 +115,7 @@ sections:
       - type: ImageBlock
         url: /images/gatsby.svg
         altText: Gatsby
-        caption: image caption
+        caption: Gatsby
       - altText: altText of the image
         caption: Caption of the image
         elementId: ''
