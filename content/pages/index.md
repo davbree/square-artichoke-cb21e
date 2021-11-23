@@ -107,7 +107,7 @@ sections:
       - type: ImageBlock
         url: /images/google-play.svg
         altText: Google Play
-        caption: image caption
+        caption: Google Play
       - type: ImageBlock
         url: /images/playstation.svg
         altText: PlayStation
