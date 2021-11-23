@@ -42,32 +42,6 @@ fields:
             textAlign: left
           actions:
             justifyContent: flex-start
-  - type: list
-    name: actions
-    label: Actions
-    items:
-      type: model
-      models:
-        - Button
-        - Link
-    default:
-      - type: Button
-        label: Apply Now
-        url: '#'
-        style: primary
-      - type: Button
-        label: Learn More
-        url: '#'
-        style: secondary
-  - type: number
-    name: columns
-    label: Items per row
-    group: styles
-    controlType: 'slider'
-    min: 1
-    max: 4
-    step: 1
-    default: 3
   - type: style
     name: styles
     styles:
