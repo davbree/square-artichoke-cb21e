@@ -69,7 +69,7 @@ export default function FaqSection(props) {
 
 function FaqItem(props) {
     return (
-        <article id={cssId} className="sb-component sb-component-block sb-component-item" data-sb-field-path={props.annotationPrefix}>
+        <article className="sb-component sb-component-block sb-component-item" data-sb-field-path={props.annotationPrefix}>
             {props.featuredImage && (
                 <div className="mb-4" data-sb-field-path=".featuredImage">
                     <ImageBlock {...props.featuredImage} className="mx-auto" />
