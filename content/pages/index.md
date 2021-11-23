@@ -101,7 +101,7 @@ sections:
       autoplay: false
       loop: false
       muted: false
-      controls: false
+      controls: true
       elementId: ''
       type: VideoBlock
   - colors: colors-h
