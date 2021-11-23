@@ -68,7 +68,6 @@ export default function FaqSection(props) {
 }
 
 function FaqItem(props) {
-    const cssId = props.elementId || null;
     return (
         <article id={cssId} className="sb-component sb-component-block sb-component-item" data-sb-field-path={props.annotationPrefix}>
             {props.featuredImage && (
