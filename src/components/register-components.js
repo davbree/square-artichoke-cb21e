@@ -10,8 +10,9 @@ registerComponents({
     ...componentsMap,
 
     Header,
-    HeroSection
+    HeroSection,
 
+    Cta
     // Override any static or dynamic component,
     // or register your own dynamic component.
 });
