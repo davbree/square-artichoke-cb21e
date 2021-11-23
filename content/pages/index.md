@@ -362,6 +362,7 @@ sections:
     colors: colors-a
     posts:
       - content/pages/blog/post-four.md
+      - content/pages/blog/postlayout-fnm97csmp.md
       - content/pages/blog/post-three.md
     styles:
       self:
