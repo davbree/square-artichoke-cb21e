@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import classNames from 'classnames';
 
-import { getComponent } from '@stackbit/components/components-registry';
+import { getComponent } from '@stackbit/components/dist/components-registry';
 import ImageBlock from '../ImageBlock';
 import Link from '../../utils/link';
 import CloseIcon from '../../svgs/close';
