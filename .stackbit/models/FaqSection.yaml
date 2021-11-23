@@ -16,10 +16,6 @@ fields:
     name: title
     label: Title
     default: Featured Items
-  - type: string
-    name: subtitle
-    label: Subtitle
-    default: The section subtitle
   - type: list
     name: items
     label: Items
