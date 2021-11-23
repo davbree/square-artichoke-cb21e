@@ -118,7 +118,7 @@ sections:
         caption: Gatsby
       - type: ImageBlock
         url: /images/xbox.svg
-        altText: altText of the image
+        altText: Xbox
         caption: Caption of the image
       - type: ImageBlock
         url: /images/skype.svg
