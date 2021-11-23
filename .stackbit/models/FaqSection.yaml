@@ -23,7 +23,7 @@ fields:
       type: object
       labelField: question
       fields:
-        - ItemBlock
+        - type
     default:
       - type: ItemBlock
         title: Item Title
