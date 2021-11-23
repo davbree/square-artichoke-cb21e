@@ -71,25 +71,6 @@ function FaqItem() {
 
 }
 
-function featuredItemActions(props) {
-    const actions = props.actions || [];
-    if (actions.length === 0) {
-        return null;
-    }
-    const styles = props.styles || {};
-    const Action = getComponent('Action');
-    return (
-        <div
-            className={classNames('flex', 'flex-wrap', 'items-center', 'mt-12', '-mx-2', styles.actions ? mapStyles(styles.actions) : null)}
-            data-sb-field-path=".actions"
-        >
-            {actions.map((action, index) => (
-                <Action key={index} {...action} className="mb-3 mx-2 lg:whitespace-nowrap" annotationPrefix={`.${index}`} />
-            ))}
-        </div>
-    );
-}
-
 function mapColStyles(columns) {
     switch (columns) {
         case 4:
