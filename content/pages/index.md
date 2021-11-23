@@ -126,7 +126,7 @@ sections:
         caption: Skype
       - type: ImageBlock
         url: /images/zcool.svg
-        altText: altText of the image
+        altText: ZCOOL
         caption: Caption of the image
     spacing: 3
     columns: 7
