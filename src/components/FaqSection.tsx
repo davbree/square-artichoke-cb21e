@@ -70,7 +70,7 @@ function FaqItem(props) {
     return (
         <div className="sb-faq-section-item" data-sb-field-path={props['data-sb-field-path']}>
             {props.question && (
-                <h3 className={classNames('m-10', props?.styles?.question ? mapStyles(props?.styles?.question) : null)} data-sb-field-path=".question">
+                <h3 className={classNames('mb-10', props?.styles?.question ? mapStyles(props?.styles?.question) : null)} data-sb-field-path=".question">
                     {props.question}
                 </h3>
             )}
