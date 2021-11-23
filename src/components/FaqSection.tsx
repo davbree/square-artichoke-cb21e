@@ -82,7 +82,7 @@ function FaqItem(props) {
                     })}
                     data-sb-field-path=".answer"
                 >
-                    {props.text}
+                    {props.answer}
                 </Markdown>
             )}
         </div>
