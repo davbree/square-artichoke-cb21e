@@ -3,7 +3,7 @@ import { useState } from 'react';
 import classNames from 'classnames';
 
 import { getComponent } from '@stackbit/components/dist/components-registry';
-import ImageBlock from '../ImageBlock';
+import ImageBlock from '@stackbit/components/dist/components/ImageBlock';
 import Link from '../../utils/link';
 import CloseIcon from '../../svgs/close';
 import HamburgerIcon from '../../svgs/hamburger';
