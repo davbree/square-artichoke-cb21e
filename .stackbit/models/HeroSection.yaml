@@ -56,7 +56,7 @@ fields:
         url: '/'
         style: secondary
   - type: model
-    name: feature
+    name: media
     label: Media
     models:
       - FormBlock
