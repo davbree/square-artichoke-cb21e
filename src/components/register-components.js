@@ -10,6 +10,7 @@ registerComponents({
     ...componentsMap,
 
     Header,
+    
     HeroSection,
 
     CtaSection: dynamic(() => import('./CtaSection.tsx'))
