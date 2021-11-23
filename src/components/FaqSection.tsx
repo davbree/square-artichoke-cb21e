@@ -73,14 +73,6 @@ function FaqItem(props) {
                     {props.question}
                 </h3>
             )}
-            {props.subtitle && (
-                <p
-                    className={classNames('text-lg', props?.styles?.subtitle ? mapStyles(props?.styles?.subtitle) : null, { 'mt-1': props.title })}
-                    data-sb-field-path=".subtitle"
-                >
-                    {props.subtitle}
-                </p>
-            )}
             {props.text && (
                 <Markdown
                     options={{ forceBlock: true, forceWrapper: true }}
