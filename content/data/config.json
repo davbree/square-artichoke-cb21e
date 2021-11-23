@@ -47,7 +47,6 @@
             }
         },
         "logo": {
-            "url": "/images/logo-37d3a0bc.png",
             "altText": "altText of the image",
             "caption": "Caption of the image",
             "elementId": "",
