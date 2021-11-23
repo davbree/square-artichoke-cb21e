@@ -1,6 +1,6 @@
 type: object
 name: FaqSection
-label: Featured Items section
+label: FAQ Section
 labelField: title
 extends:
   - Section
