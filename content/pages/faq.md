@@ -2,7 +2,7 @@
 title: FAQ
 layout: PageLayout
 sections:
-  - colors: colors-a
+  - colors: colors-e
     elementId: ''
     title: Frequently Asked Questions
     subtitle: The section subtitle
