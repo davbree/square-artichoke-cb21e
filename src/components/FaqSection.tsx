@@ -57,7 +57,7 @@ export default function FaqSection(props) {
                             data-sb-field-path=".items"
                         >
                             {props.items.map((item, index) => (
-                                <ItemBlock key={index} {...item} data-sb-field-path={`.${index}`} />
+                                <FaqItem key={index} {...item} data-sb-field-path={`.${index}`} />
                             ))}
                         </div>
                     )}
