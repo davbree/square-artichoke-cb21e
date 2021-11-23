@@ -16,7 +16,7 @@ export default function FaqSection(props) {
             className={classNames(
                 'sb-component',
                 'sb-component-section',
-                'sb-component-featured-items-section',
+                'sb-component-faq-items-section',
                 colors,
                 'flex',
                 'flex-col',
