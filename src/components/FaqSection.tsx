@@ -52,7 +52,7 @@ export default function FaqSection(props) {
                     )}
                     {props.items && (
                         <div
-                            className={classNames('grid', 'gap-6', 'lg:gap-8', mapColStyles(props?.columns || 3), { 'mt-12': props.title || props.subtitle })}
+                            className={classNames(mapColStyles(props?.columns || 3), { 'mt-12': props.title || props.subtitle })}
                             data-sb-field-path=".items"
                         >
                             {props.items.map((item, index) => (
