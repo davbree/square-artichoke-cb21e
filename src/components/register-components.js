@@ -3,7 +3,7 @@ import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
 
 import Header from "./Header.tsx";
-import Header from "./Header.tsx";
+import HeroSection from "./Header.tsx";
 
 registerComponents({
     // Register all Stackbit components
