@@ -48,7 +48,7 @@ sections:
         url: '#'
         label: Learn more
         style: secondary
-    feature:
+    media:
       type: ImageBlock
       url: /images/fishing.jpg
       altText: Image alt text
