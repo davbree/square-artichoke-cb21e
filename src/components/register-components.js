@@ -12,7 +12,7 @@ registerComponents({
     Header,
     HeroSection,
 
-    Cta
+    CtaSection: 
     // Override any static or dynamic component,
     // or register your own dynamic component.
 });
