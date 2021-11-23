@@ -85,7 +85,7 @@ function FaqItem(props) {
                     {props.text}
                 </Markdown>
             )}
-        </article>
+        </div>
     );
 }
 
