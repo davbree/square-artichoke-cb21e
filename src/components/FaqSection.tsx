@@ -68,7 +68,7 @@ export default function FaqSection(props) {
 
 function FaqItem(props) {
     return (
-        <div className="sb-component sb-component-block sb-faq-section-item" data-sb-field-path={props['data-sb-field-path']}>
+        <div className="sb-component sb-faq-section-item" data-sb-field-path={props['data-sb-field-path']}>
             {props.question && (
                 <h3 className={classNames(props?.styles?.question ? mapStyles(props?.styles?.question) : null)} data-sb-field-path=".title">
                     {props.question}
