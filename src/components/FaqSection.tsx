@@ -89,18 +89,6 @@ function FaqItem(props) {
     );
 }
 
-function mapColStyles(columns) {
-    switch (columns) {
-        case 4:
-            return 'md:grid-cols-4';
-        case 3:
-            return 'md:grid-cols-3';
-        case 2:
-            return 'md:grid-cols-2';
-    }
-    return null;
-}
-
 function mapMinHeightStyles(height) {
     switch (height) {
         case 'auto':
