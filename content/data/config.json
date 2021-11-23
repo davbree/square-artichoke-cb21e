@@ -20,6 +20,12 @@
                 "altText": ""
             },
             {
+                "type": "Link",
+                "label": "FAQ",
+                "url": "/faq",
+                "altText": ""
+            },
+            {
                 "label": "Blog",
                 "altText": "Learn more",
                 "url": "/",
@@ -29,12 +35,6 @@
                 "style": "link",
                 "elementId": "",
                 "type": "Link"
-            },
-            {
-                "type": "Link",
-                "label": "FAQ",
-                "url": "/faq",
-                "altText": ""
             }
         ],
         "secondaryLinks": [
