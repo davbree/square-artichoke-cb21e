@@ -290,7 +290,7 @@ sections:
     text: >
       Share WIP, comment on each other’s work, approve what’s ready to go, ship
       together
-    feature:
+    media:
       type: ImageBlock
       url: /images/Image-on-the-left.svg
       altText: Hero section image
