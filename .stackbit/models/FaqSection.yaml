@@ -32,24 +32,7 @@ fields:
           label: Answer
           default: At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation
     default:
-      - type: ItemBlock
-        title: Item Title
-        text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.'
-        featuredImage:
-          type: ImageBlock
-          url: 'https://assets.stackbit.com/components/images/default/default-image.png'
-          altText: Item image
-        styles:
-          title:
-            textAlign: left
-          subtitle:
-            fontWeight: 400
-            fontStyle: normal
-            textAlign: left
-          text:
-            textAlign: left
-          actions:
-            justifyContent: flex-start
+      - 
   - type: style
     name: styles
     styles:
