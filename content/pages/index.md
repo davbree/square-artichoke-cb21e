@@ -96,7 +96,7 @@ sections:
     media:
       url: /images/hero-3.jpg
       altText: Where did everyone go?
-      caption: Caption of the image
+      caption: Team meeting
       elementId: ''
       styles:
         self:
