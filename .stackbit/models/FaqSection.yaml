@@ -28,8 +28,8 @@ fields:
           label: Title
           default: How it this different from what we have today?
         - type: markdown
-          name: text
-          label: Text
+          name: answer
+          label: Answer
           default: At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation
     default:
       - type: ItemBlock
