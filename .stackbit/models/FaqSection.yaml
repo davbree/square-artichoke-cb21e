@@ -35,21 +35,21 @@ fields:
           name: answer
           label: Answer
           default: At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation
-  - type: style
-    name: styles
-    styles:
-      title:
-        fontWeight: ['400', '700']
-        fontStyle: ['normal', 'italic']
-        textAlign: ['left', 'center', 'right']
-      subtitle:
-        fontWeight: ['400', '700']
-        fontStyle: ['normal', 'italic']
-        textAlign: ['left', 'center', 'right']
-      text:
-        textAlign: ['left', 'center', 'right']
-      actions:
-        justifyContent: ['flex-start', 'flex-end', 'center']
+        - type: style
+          name: styles
+          styles:
+            title:
+              fontWeight: ['400', '700']
+              fontStyle: ['normal', 'italic']
+              textAlign: ['left', 'center', 'right']
+            subtitle:
+              fontWeight: ['400', '700']
+              fontStyle: ['normal', 'italic']
+              textAlign: ['left', 'center', 'right']
+            text:
+              textAlign: ['left', 'center', 'right']
+            actions:
+              justifyContent: ['flex-start', 'flex-end', 'center']
     default:
       - question: How it this different from what we have today?
         answer: At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation
