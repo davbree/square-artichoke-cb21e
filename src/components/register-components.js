@@ -11,7 +11,7 @@ registerComponents({
 
     Header,
 
-    HeroSection,
+    HeroSection: dynamic(() => import('./CtaSection.tsx')),
     CtaSection: dynamic(() => import('./CtaSection.tsx'))
     // Override any static or dynamic component,
     // or register your own dynamic component.
