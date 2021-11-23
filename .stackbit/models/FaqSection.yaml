@@ -74,8 +74,6 @@ fields:
         fontWeight: ['400', '700']
         fontStyle: ['normal', 'italic']
         textAlign: ['left', 'center', 'right']
-      actions:
-        justifyContent: ['flex-start', 'flex-end', 'center']
     default:
       self:
         height: auto
