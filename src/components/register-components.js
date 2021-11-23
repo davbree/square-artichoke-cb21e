@@ -6,6 +6,7 @@ import Header from "./Header.tsx";
 registerComponents({
     // Register all Stackbit components
     ...componentsMap,
+    
     Header
 
     // Override any static or dynamic component,
