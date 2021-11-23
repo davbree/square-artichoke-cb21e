@@ -74,7 +74,7 @@ function FaqItem(props) {
                     {props.question}
                 </h3>
             )}
-            {props.text && (
+            {props.answer && (
                 <Markdown
                     options={{ forceBlock: true, forceWrapper: true }}
                     className={classNames('sb-markdown', props?.styles?.text ? mapStyles(props?.styles?.text) : null, {
