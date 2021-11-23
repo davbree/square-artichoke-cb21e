@@ -67,10 +67,6 @@ sections:
         style: link
         showIcon: true
         icon: arrowRight
-    media:
-      type: ImageBlock
-      url: /images/hero-3.jpg
-      altText: Hero section image
     styles:
       self:
         height: auto
