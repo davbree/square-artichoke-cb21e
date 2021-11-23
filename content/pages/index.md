@@ -93,6 +93,17 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    media:
+      url: >-
+        https://assets.stackbit.com/components/videos/default/stackbit-for-marketers.mp4
+      thumbnailUrl: >-
+        https://assets.stackbit.com/components/images/default/stackbit-for-marketers.jpeg
+      autoplay: false
+      loop: false
+      muted: false
+      controls: true
+      elementId: ''
+      type: VideoBlock
   - colors: colors-h
     elementId: ''
     images:
