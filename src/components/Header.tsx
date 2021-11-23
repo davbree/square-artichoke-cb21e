@@ -6,7 +6,7 @@ import { getComponent } from '@stackbit/components/dist/components-registry';
 import ImageBlock from '@stackbit/components/dist/components/ImageBlock';
 import Link from '@stackbit/components/dist/utils/link';
 import CloseIcon from '@stackbit/components/dist/svgs/close';
-import HamburgerIcon from '../../svgs/hamburger';
+import HamburgerIcon from '@stackbit/components/dist/svgs/hamburger';
 
 export default function Header(props) {
     const primaryColors = props.primaryColors || 'colors-a';
