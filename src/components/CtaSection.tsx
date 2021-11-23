@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { getComponent } from '../../components-registry';
+import { getComponent } from '@stackbit/components/components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../utils/map-styles-to-class-names';
 import ItemBlock from '../ItemBlock';
 
