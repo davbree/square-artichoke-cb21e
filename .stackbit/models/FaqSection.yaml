@@ -18,7 +18,7 @@ fields:
     default: Featured Items
   - type: list
     name: items
-    label: Items
+    label: FAQ Items
     items:
       type: model
       models:
