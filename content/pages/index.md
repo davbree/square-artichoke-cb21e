@@ -119,7 +119,7 @@ sections:
       - type: ImageBlock
         url: /images/xbox.svg
         altText: Xbox
-        caption: Caption of the image
+        caption: Xbox
       - type: ImageBlock
         url: /images/skype.svg
         altText: altText of the image
