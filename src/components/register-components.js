@@ -12,7 +12,7 @@ registerComponents({
     Header,
     HeroSection,
 
-    CtaSection: dynamic(() => import('./path/to/component'))
+    CtaSection: dynamic(() => import('./'))
     // Override any static or dynamic component,
     // or register your own dynamic component.
 });
