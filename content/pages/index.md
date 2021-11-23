@@ -122,7 +122,7 @@ sections:
         caption: Xbox
       - type: ImageBlock
         url: /images/skype.svg
-        altText: altText of the image
+        altText: Skype
         caption: Caption of the image
       - type: ImageBlock
         url: /images/zcool.svg
