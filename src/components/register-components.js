@@ -1,11 +1,12 @@
 import dynamic from 'next/dynamic';
 import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
-import Header from "./"
+import Header from "./Header.tsx";
+
 registerComponents({
     // Register all Stackbit components
     ...componentsMap,
-    Header: 
+    Header
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
