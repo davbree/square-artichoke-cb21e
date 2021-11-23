@@ -116,13 +116,6 @@ sections:
         url: /images/gatsby.svg
         altText: Gatsby
         caption: Gatsby
-      - altText: altText of the image
-        caption: Caption of the image
-        elementId: ''
-        styles:
-          self:
-            opacity: 100
-        type: ImageBlock
       - type: ImageBlock
         url: /images/xbox.svg
         altText: altText of the image
