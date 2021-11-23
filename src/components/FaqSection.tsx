@@ -1,8 +1,10 @@
 import * as React from 'react';
 import classNames from 'classnames';
+import Markdown from 'markdown-to-jsx';
 import { getComponent } from '@stackbit/components';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 import ItemBlock from '@stackbit/components/dist/components/ItemBlock';
+
 
 export default function FaqSection(props) {
     const cssId = props.elementId || null;
@@ -67,19 +69,11 @@ export default function FaqSection(props) {
 
 function FaqItem(props) {
     return (
-        <article className="sb-component sb-component-block sb-component-item" data-sb-field-path={props['data-sb-field-path']}>
+        <div className="sb-component sb-component-block sb-component-item" data-sb-field-path={props['data-sb-field-path']}>
             {props.question && (
                 <h3 className={classNames(props?.styles?.question ? mapStyles(props?.styles?.question) : null)} data-sb-field-path=".title">
                     {props.question}
                 </h3>
-            )}
-            {props.subtitle && (
-                <p
-                    className={classNames('text-lg', props?.styles?.subtitle ? mapStyles(props?.styles?.subtitle) : null, { 'mt-1': props.title })}
-                    data-sb-field-path=".subtitle"
-                >
-                    {props.subtitle}
-                </p>
             )}
             {props.text && (
                 <Markdown
@@ -92,18 +86,7 @@ function FaqItem(props) {
                     {props.text}
                 </Markdown>
             )}
-            {props.author && (
-                <div className={classNames('text-sm', { 'mt-4': props.title || props.subtitle || props.text })} data-sb-field-path=".author">
-                    {props.author}
-                </div>
-            )}
-            {props.isRatingVisible && props.rating && (
-                <div className={classNames({ 'mt-4': props.title || props.subtitle || props.text || props.author })} data-sb-field-path=".rating">
-                    {props.rating}
-                </div>
-            )}
-            {itemActions(props)}
-        </article>
+        </div>
     );
 }
 
