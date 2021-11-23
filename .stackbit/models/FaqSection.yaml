@@ -74,6 +74,12 @@ fields:
         fontWeight: ['400', '700']
         fontStyle: ['normal', 'italic']
         textAlign: ['left', 'center', 'right']
+      subtitle:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+      text:
+        textAlign: ['left', 'center', 'right']
     default:
       self:
         height: auto
