@@ -68,6 +68,10 @@ export default function FaqSection(props) {
     );
 }
 
+function FaqItem() {
+
+}
+
 function featuredItemActions(props) {
     const actions = props.actions || [];
     if (actions.length === 0) {
