@@ -20,8 +20,9 @@ fields:
     name: items
     label: FAQ Items
     items:
-      type: model
-      models:
+      type: object
+      labelField: question
+      fields:
         - ItemBlock
     default:
       - type: ItemBlock
