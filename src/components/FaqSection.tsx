@@ -67,10 +67,6 @@ export default function FaqSection(props) {
     );
 }
 
-function FaqItem() {
-
-}
-
 function FaqItem(props) {
     const cssId = props.elementId || null;
     return (
