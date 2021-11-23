@@ -73,7 +73,7 @@ function heroMedia(media) {
     }
     const Media = getComponent(mediaType);
     if (!Media) {
-        throw new Error(`no component matching the hero section media type: ${featureType}`);
+        throw new Error(`no component matching the hero section media type: ${mediaType}`);
     }
     return <Media {...media} />;
 }
