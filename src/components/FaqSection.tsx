@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import Markdown from 'markdown-to-jsx';
 import { getComponent } from '@stackbit/components';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
-import ItemBlock from '@stackbit/components/dist/components/ItemBlock';
 
 
 export default function FaqSection(props) {
