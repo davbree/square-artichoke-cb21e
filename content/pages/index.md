@@ -127,7 +127,7 @@ sections:
       - type: ImageBlock
         url: /images/zcool.svg
         altText: ZCOOL
-        caption: Caption of the image
+        caption: ZCOOL
     spacing: 3
     columns: 7
     aspectRatio: auto
