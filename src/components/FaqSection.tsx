@@ -85,17 +85,6 @@ function FaqItem(props) {
                     {props.text}
                 </Markdown>
             )}
-            {props.author && (
-                <div className={classNames('text-sm', { 'mt-4': props.title || props.subtitle || props.text })} data-sb-field-path=".author">
-                    {props.author}
-                </div>
-            )}
-            {props.isRatingVisible && props.rating && (
-                <div className={classNames({ 'mt-4': props.title || props.subtitle || props.text || props.author })} data-sb-field-path=".rating">
-                    {props.rating}
-                </div>
-            )}
-            {itemActions(props)}
         </article>
     );
 }
