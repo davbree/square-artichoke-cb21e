@@ -23,8 +23,10 @@ fields:
       type: object
       labelField: question
       fields:
-        - type: string
-          name: question
+  - type: string
+    name: title
+    label: Title
+    default: Item Title
     default:
       - type: ItemBlock
         title: Item Title
