@@ -24,8 +24,8 @@ fields:
       labelField: question
       fields:
         - type: string
-          name: title
-          label: Title
+          name: question
+          label: Question
           default: How it this different from what we have today?
         - type: markdown
           name: answer
