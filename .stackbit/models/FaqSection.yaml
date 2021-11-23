@@ -26,7 +26,7 @@ fields:
         - type: string
           name: title
           label: Title
-          default: Item Title
+          default: How it this different from what we have today?
         - type: markdown
           name: text
           label: Text
