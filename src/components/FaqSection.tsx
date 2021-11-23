@@ -77,7 +77,7 @@ function FaqItem(props) {
             {props.answer && (
                 <Markdown
                     options={{ forceBlock: true, forceWrapper: true }}
-                    className={classNames('sb-markdown', props?.styles?.text ? mapStyles(props?.styles?.text) : null, {
+                    className={classNames('sb-markdown', props?.styles?.answer ? mapStyles(props?.styles?.answer) : null, {
                         'mt-4': props.title || props.subtitle
                     })}
                     data-sb-field-path=".text"
