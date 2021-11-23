@@ -114,7 +114,7 @@ sections:
         caption: PlayStation
       - type: ImageBlock
         url: /images/gatsby.svg
-        altText: image alt text
+        altText: Gatsby
         caption: image caption
       - altText: altText of the image
         caption: Caption of the image
