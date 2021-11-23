@@ -80,7 +80,7 @@ function FaqItem(props) {
                     className={classNames('sb-markdown', props?.styles?.answer ? mapStyles(props?.styles?.answer) : null, {
                         'mt-4': props.title || props.subtitle
                     })}
-                    data-sb-field-path=".text"
+                    data-sb-field-path=".answer"
                 >
                     {props.text}
                 </Markdown>
