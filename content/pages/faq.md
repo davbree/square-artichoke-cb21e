@@ -214,7 +214,7 @@ sections:
         style: link
         showIcon: true
         icon: arrowRight
-    feature:
+    media:
       type: ImageBlock
       url: /images/hero-3.jpg
       altText: Hero section image
