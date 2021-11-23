@@ -32,7 +32,7 @@ fields:
           label: Answer
           default: At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation
     default:
-      - 
+      - question: How it this different from what we have today?
   - type: style
     name: styles
     styles:
