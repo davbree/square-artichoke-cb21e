@@ -68,11 +68,6 @@ export default function FaqSection(props) {
 function FaqItem(props) {
     return (
         <article className="sb-component sb-component-block sb-component-item" data-sb-field-path={props.annotationPrefix}>
-            {props.featuredImage && (
-                <div className="mb-4" data-sb-field-path=".featuredImage">
-                    <ImageBlock {...props.featuredImage} className="mx-auto" />
-                </div>
-            )}
             {props.title && (
                 <h3 className={classNames(props?.styles?.title ? mapStyles(props?.styles?.title) : null)} data-sb-field-path=".title">
                     {props.title}
