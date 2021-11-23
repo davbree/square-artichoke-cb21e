@@ -110,7 +110,7 @@ sections:
         caption: image caption
       - type: ImageBlock
         url: /images/playstation.svg
-        altText: image alt text
+        altText: PlayStation
         caption: image caption
       - type: ImageBlock
         url: /images/gatsby.svg
