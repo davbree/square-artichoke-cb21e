@@ -14,6 +14,12 @@
                 "altText": ""
             },
             {
+                "type": "Link",
+                "label": "Careers",
+                "url": "/careers",
+                "altText": ""
+            },
+            {
                 "label": "Blog",
                 "altText": "Learn more",
                 "url": "/",
@@ -23,12 +29,6 @@
                 "style": "link",
                 "elementId": "",
                 "type": "Link"
-            },
-            {
-                "type": "Link",
-                "label": "Careers",
-                "url": "/careers",
-                "altText": ""
             },
             {
                 "type": "Link",
