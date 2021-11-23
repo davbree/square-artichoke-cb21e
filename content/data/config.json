@@ -27,7 +27,7 @@
             },
             {
                 "label": "Blog",
-                "altText": "Learn more",
+                "altText": "Blog",
                 "url": "/blog",
                 "showIcon": false,
                 "icon": "arrowLeft",
