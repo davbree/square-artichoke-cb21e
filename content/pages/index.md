@@ -102,7 +102,7 @@ sections:
     images:
       - type: ImageBlock
         url: /images/apple.svg
-        altText: image alt text
+        altText: Apple
         caption: image caption
       - type: ImageBlock
         url: /images/google-play.svg
