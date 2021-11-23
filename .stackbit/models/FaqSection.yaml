@@ -48,8 +48,6 @@ fields:
               textAlign: ['left', 'center', 'right']
             answer:
               textAlign: ['left', 'center', 'right']
-            actions:
-              justifyContent: ['flex-start', 'flex-end', 'center']
     default:
       - question: How it this different from what we have today?
         answer: At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation, At the office, working together is often a distruction, on remote, it could be motivation
