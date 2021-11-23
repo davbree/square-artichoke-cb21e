@@ -28,7 +28,7 @@
             {
                 "label": "Blog",
                 "altText": "Learn more",
-                "url": "/",
+                "url": "/blog",
                 "showIcon": false,
                 "icon": "arrowLeft",
                 "iconPosition": "right",
