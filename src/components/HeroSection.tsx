@@ -72,10 +72,10 @@ function heroMedia(media) {
         throw new Error(`hero section feature does not have the 'type' property`);
     }
     const Media = getComponent(mediaType);
-    if (!Feature) {
+    if (!Media) {
         throw new Error(`no component matching the hero section feature type: ${featureType}`);
     }
-    return <Feature {...media} />;
+    return <Media {...media} />;
 }
 
 function heroBackgroundImage(image) {
