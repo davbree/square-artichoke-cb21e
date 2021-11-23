@@ -61,7 +61,6 @@ export default function FaqSection(props) {
                             ))}
                         </div>
                     )}
-                    {featuredItemActions(props)}
                 </div>
             </div>
         </div>
