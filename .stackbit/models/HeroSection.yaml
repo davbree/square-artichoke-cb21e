@@ -57,7 +57,7 @@ fields:
         style: secondary
   - type: model
     name: feature
-    label: Feature
+    label: Media
     models:
       - FormBlock
       - ImageBlock
