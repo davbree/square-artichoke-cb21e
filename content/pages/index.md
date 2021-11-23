@@ -95,7 +95,7 @@ sections:
     type: HeroSection
     media:
       url: /images/hero-3.jpg
-      altText: Where did everyone go
+      altText: Where did everyone go?
       caption: Caption of the image
       elementId: ''
       styles:
