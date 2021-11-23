@@ -56,7 +56,7 @@ export default function HeroSection(props) {
                         </div>
                         {props.media && (
                             <div className="my-3 flex-1 px-4 w-full">
-                                <div data-sb-field-path=".media">{heroFeature(props.feature)}</div>
+                                <div data-sb-field-path=".media">{heroMedia(props.media)}</div>
                             </div>
                         )}
                     </div>
