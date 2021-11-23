@@ -70,7 +70,7 @@ function FaqItem(props) {
         <article className="sb-component sb-component-block sb-component-item" data-sb-field-path={props['data-sb-field-path']}>
             {props.question && (
                 <h3 className={classNames(props?.styles?.question ? mapStyles(props?.styles?.question) : null)} data-sb-field-path=".title">
-                    {props.title}
+                    {props.question}
                 </h3>
             )}
             {props.subtitle && (
