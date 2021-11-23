@@ -123,7 +123,7 @@ sections:
       - type: ImageBlock
         url: /images/skype.svg
         altText: Skype
-        caption: Caption of the image
+        caption: Skype
       - type: ImageBlock
         url: /images/zcool.svg
         altText: altText of the image
