@@ -38,7 +38,7 @@ fields:
         - type: style
           name: styles
           styles:
-            title:
+            question:
               fontWeight: ['400', '700']
               fontStyle: ['normal', 'italic']
               textAlign: ['left', 'center', 'right']
